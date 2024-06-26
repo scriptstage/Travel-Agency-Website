@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Dosis';
+        text-decoration: none;
+        background-color: rgb(219, 214, 214);;
+    }
+
+    a{
+        color: black;
+        font-weight: bolder;
+        transition: 0.1s;
+    }
+    a:hover{
+    color: #ffffff;
+}
+
+a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: all .5s;
+}
+
+a::before{
+    width: 100%;
+}
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.table tr td img{
+    border-radius: 5px; 
+    transition: 1s; 
+    cursor: pointer; 
+}
+
+.table tr td img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+h4{
+    color: rgb(42, 134, 141);   
+}
+</style>
+<body>
+    <body>
+        <br/>
+        <center>
+            <h1>Blog</h1>
+        </center>
+        <br/>
+        <center class="navbar">
+        <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+        <a href="#">Blog</a>&nbsp; &nbsp; &nbsp;
+        <a href="about.html">About</a>&nbsp; &nbsp; &nbsp;
+        <a href="contact.html">Contact</a>&nbsp; &nbsp; &nbsp;
+    </center>
+    <br>    
+    <center><h4>The Ultimate Guide to Packing Light for Any Trip</h4></center>
+    <br><br>
+    <center>
+        <table class="table">
+            <tr>
+             <td><img src="img/10.jpg" alt="" height="50%" width="50%">
+                <h4>Adventure Travel</h4>
+                  <p>
+                    Embark on an unforgettable <br>adventure through Patagonia's <br>breathtaking landscapes.
+                </p>
+                </td>
+                <td><img src="img/4.jpg" alt="" height="50%" width="50%">
+                <h4>Family Travel</h4>
+                <p>
+                    Create unforgettable memories <br> with our top picks for family <br>adventures around the world.
+                </p>
+                </td>
+                <td><img src="img/5.jpg" alt="" width="50%" height="50%">
+                <h4>Luxury Travel</h4>
+                <p>
+                    Indulge in the ultimate luxury with <br> our curated selection of five-star <br> resorts and experiences.
+                </p>
+            </td>
+        </tr>
+    </table>
+    </center>
+    <br>
+    <br>
+    <center>    
+ <table class="table">
+        <tr>
+            <td>
+                <img src="img/6.jpg" alt="" height="50%" width="50%">
+                <h4>Seasonal Travel</h4>
+                <p>
+                    Celebrate the beauty of <br>    autumn with a trip to these <br>breathtaking fall destinations.
+                </p>
+            </td>
+            <td>
+                <img src="img/9.jpg" alt="" height="50%" width="50%">
+                <h4>Sustainabel Travel</h4>
+                <p>Travel responsibly with our guide to <br> eco-friendly destinations and <br> practices.</p>
+            </td>
+            <td>
+                <img src="img/8.jpg" alt="" height="50%" width="50%">
+                <h4>Destination Guides</h4>
+                <p>Explore the vibrant streets of Tokyo <br> and immerse yourself in a city <br> where tradition meets innovation.</p>
+            </td>
+        </tr>
+        </table>
+    </center>
+        <br>
+        <br>
+        <center>
+        <table class="table">
+            <tr>
+                <td>
+                    <img src="img/15.jpg" alt="" height="50%" width="50%">
+                    <h4>Cultural Experiences</h4>
+                    <p>Step into the past as you explore <br> Rome's historic landmarks, from the <br> Colosseum to the Vatican.</p>
+                </td>
+                <td>
+                    <img src="img/11.jpg" alt="" width="50%" height="50%">
+                    <h4>Food And Travel</h4>
+                    <p>Pair your meals with fine Italian <br> finish with a scoop of creamy <br> gelato.</p>
+                </td>
+                <td>
+                   <img src="img/13.jpg" alt="" width="50%" height="50%">
+                   <h4>Solo Travel</h4>
+                   <p>
+                    Traveling alone can be a deeply <br> rewarding experience, offering <br>complete freedom and self-discovery.
+                   </p>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
